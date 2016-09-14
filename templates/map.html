@@ -2,13 +2,13 @@
 <html lang="{{lang}}">
   <head>
     <meta charset="utf-8">
-    <title>Pokémon Go Map</title>
+    <title>PokéFinder</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="PokeMap">
+    <meta name="apple-mobile-web-app-title" content="PokéAlert">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#3b3b3b">
+    <meta name="theme-color" content="00FFC0">
     <!-- Fav- & Apple-Touch-Icons -->
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ url_for('static', filename='appicons/favicon.ico').lstrip('/') }}" type="image/x-icon">
@@ -37,7 +37,7 @@
       <!-- Header -->
       <header id="header">
         <a href="#nav"><span class="label">Options</span></a>
-        <h1><a href="#">Pokémon Go Map</a></h1>
+        <h1><a href="#">PokéFinder</a></h1>
         <a href="#stats" id="statsToggle" class="statsNav" style="float: right;"><span class="label">Stats</span></a>
       </header>
       <!-- NAV -->
@@ -121,7 +121,7 @@
             </div>
           </div>
 
-          <h3>Location & Search Settings</h3>
+          <h3>Lokation</h3>
           <div>
             <div class="form-control switch-container" style="display:{{is_fixed}}" >
               <label for="next-location">
@@ -181,7 +181,7 @@
             </div>
           </div>
 
-          <h3>Notification Settings</h3>
+          <h3>Notifikation Indstillinger...</h3>
           <div>
             <div class="form-control">
               <label for="notify-pokemon">
